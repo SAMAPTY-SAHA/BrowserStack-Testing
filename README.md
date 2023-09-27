@@ -17,3 +17,5 @@
 - Automation Tool: Selenium
 - IDE: IntelliJ IDEA
 - OS: Web System
+
+## Test Cases of BrowserStack
