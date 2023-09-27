@@ -19,3 +19,5 @@
 - OS: Web System
 
 ## Test Cases of BrowserStack
+
+[Test Case](https://docs.google.com/spreadsheets/d/18L9gxmKnevLLD5uAQR4lckS8EKjyJNjqP0zLrsuxvsk/edit?usp=sharing)
