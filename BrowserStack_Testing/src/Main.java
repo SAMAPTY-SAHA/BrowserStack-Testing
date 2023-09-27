@@ -12,8 +12,14 @@ public class Main {
         //driverSet.launchBrowser();
 
         WebDriver driver= DriverSet.launchBrowser();
+        Thread.sleep(3000);
+
+        Vendors vendors= new Vendors();
+        vendors.vendor();
 
         Thread.sleep(3000);
+        OrderBy orderby=new OrderBy();
+        orderby.orderBy();
 
         
 
