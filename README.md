@@ -7,7 +7,7 @@
 
 ## Introduction
 
- Browserstack[](https://www.bstackdemo.com/) demo is an e-commerce website.
+ [Browserstack](https://www.bstackdemo.com/) is an e-commerce website.
  
   
 ## Used Technology
