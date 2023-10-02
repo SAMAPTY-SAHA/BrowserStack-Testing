@@ -13,14 +13,6 @@ public class SignIn {
         link.click();
         Thread.sleep(3000);
 
-        // Locate the div element by its class name
-        //WebElement divElement = driver.findElement(By.className("css-tlfecz-indicatorContainer"));
-
-        // Click on the div element
-        //divElement.click();
-
-        Thread.sleep(2000);
-
 
        WebElement inputElement = driver.findElement(By.id("react-select-2-input"));
 

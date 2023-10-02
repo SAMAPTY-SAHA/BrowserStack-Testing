@@ -25,13 +25,17 @@ public class Main {
         OrderBy orderby=new OrderBy();
         orderby.orderBy();*/
 
-        Thread.sleep(3000);
+        Thread.sleep(1000);
         SignIn signIn= new SignIn();
         signIn.sinn_In();
 
         Thread.sleep(3000);
         AddToCart addToCart = new AddToCart();
         addToCart.cartload();
+
+        Thread.sleep(3000);
+        OrdersHistory history= new OrdersHistory();
+        history.ordersHistory();
 
     }
 
