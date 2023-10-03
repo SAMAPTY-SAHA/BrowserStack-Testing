@@ -20,7 +20,7 @@ public class SignIn {
         inputElement.sendKeys("demouser");
         inputElement.sendKeys(Keys.ENTER);
 
-        Thread.sleep(1000);
+        Thread.sleep(2000);
         WebElement passwordElement = driver.findElement(By.id("react-select-3-input"));
 
         // Send the text "testingisfun99" to the password input element

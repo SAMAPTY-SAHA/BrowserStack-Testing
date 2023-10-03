@@ -16,8 +16,6 @@ public class Main {
         WebDriver driver= DriverSet.launchBrowser();
        // Thread.sleep(3000);
 
-
-
         /*Vendors vendors= new Vendors();
         vendors.vendor();
 
@@ -25,17 +23,22 @@ public class Main {
         OrderBy orderby=new OrderBy();
         orderby.orderBy();*/
 
-        Thread.sleep(1000);
+        Thread.sleep(2000);
         SignIn signIn= new SignIn();
         signIn.sinn_In();
 
-        Thread.sleep(3000);
+        /*Thread.sleep(3000);
         AddToCart addToCart = new AddToCart();
         addToCart.cartload();
 
         Thread.sleep(3000);
         OrdersHistory history= new OrdersHistory();
-        history.ordersHistory();
+        history.ordersHistory();*/
+
+        Thread.sleep(3000);
+        Favourites favourite= new Favourites();
+        favourite.favourites();
+
 
     }
 
