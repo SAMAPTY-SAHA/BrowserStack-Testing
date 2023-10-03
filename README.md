@@ -30,6 +30,8 @@
  #### Favorites Module:
  - Implemented automated tests for adding and managing favorite products.
  - Checked if favorited items are correctly displayed.
+ #### Demo of my work 
+ [Demo](https://drive.google.com/file/d/1JmHbc4qQ0vpa32ByOV7E7BXPd7cgBSKN/view?pli=1)
    
 ## Used Technology
  
