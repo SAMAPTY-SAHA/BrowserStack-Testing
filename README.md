@@ -8,7 +8,10 @@
 
 ## Introduction
 
- [Browserstack](https://www.bstackdemo.com/) is an e-commerce website.
+ [Browserstack](https://www.bstackdemo.com/) is an e-commerce website. I performed automated testing on the Browserstack e-commerce website using Selenium and Java, covering various modules of the application. Here's a summary of the test modules I worked on:
+
+ # Login Module:
+ - Developed automated test scripts to verify the login functionality.
  
   
 ## Used Technology
