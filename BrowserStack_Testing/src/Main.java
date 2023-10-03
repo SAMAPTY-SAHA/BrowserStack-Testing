@@ -16,28 +16,36 @@ public class Main {
         WebDriver driver= DriverSet.launchBrowser();
        // Thread.sleep(3000);
 
-        /*Vendors vendors= new Vendors();
-        vendors.vendor();
-
-        Thread.sleep(3000);
-        OrderBy orderby=new OrderBy();
-        orderby.orderBy();*/
-
         Thread.sleep(2000);
         SignIn signIn= new SignIn();
         signIn.sinn_In();
 
-        /*Thread.sleep(3000);
+        Thread.sleep(4000);
+        Vendors vendors= new Vendors();
+        vendors.vendor();
+
+        Thread.sleep(3000);
+        OrderBy orderby=new OrderBy();
+        orderby.orderBy();
+
+        Thread.sleep(3000);
         AddToCart addToCart = new AddToCart();
         addToCart.cartload();
 
         Thread.sleep(3000);
         OrdersHistory history= new OrdersHistory();
-        history.ordersHistory();*/
+        history.ordersHistory();
 
         Thread.sleep(3000);
         Favourites favourite= new Favourites();
         favourite.favourites();
+
+        Thread.sleep(3000);
+        Logout logout= new Logout();
+        logout.logOut();
+
+        Thread.sleep(3000);
+        driver.quit();
 
 
     }
